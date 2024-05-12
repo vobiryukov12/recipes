@@ -1,0 +1,32 @@
+.aside {
+  height: 100%;
+  padding: 24px;
+
+  &__filters,
+  &__hero {
+    margin-bottom: 48px;
+  }
+
+  &__luckyText {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+  }
+
+  &__luckyBtn {
+    cursor: pointer;
+
+    margin-bottom: 24px;
+    padding: 4px 15px;
+
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(0 0 0 / 85%);
+
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    box-shadow: 0 2px 0 0 rgb(0 0 0 / 2%);
+  }
+}

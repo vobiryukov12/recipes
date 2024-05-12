@@ -1,0 +1,15 @@
+.header {
+  padding: 12px 12px 0;
+  background: #efefef;
+
+  &__content {
+    padding: 16px 24px;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgb(0 0 0 / 85%);
+
+    background-color: #fff;
+  }
+}

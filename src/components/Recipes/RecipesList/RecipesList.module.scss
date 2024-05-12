@@ -1,0 +1,23 @@
+.recipesList {
+  padding: 12px;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: repeat(auto-fill, 354px);
+    gap: 20px;
+
+    margin-bottom: 25px;
+
+    @media (width < 1000px) {
+      grid-template-columns: auto;
+    }
+  }
+
+  &__status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}

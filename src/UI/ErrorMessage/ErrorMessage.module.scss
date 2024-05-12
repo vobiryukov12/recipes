@@ -1,0 +1,13 @@
+.error {
+  &__message {
+    color: red;
+    text-align: center;
+  }
+
+  &__img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
+}
